@@ -1,5 +1,5 @@
 import React from "react";
-import home1 from "../img/home1.png";
+import home2 from "../img/home2.jpg";
 
 const AboutSection =()=>{
     return(
@@ -17,7 +17,7 @@ const AboutSection =()=>{
                 <button>contact us</button>
             </div>
             <div className="image">
-                <img src={home1} alt="a man standing"/>
+                <img src={home2} alt="a man standing"/>
             </div>
         </div>
     );
