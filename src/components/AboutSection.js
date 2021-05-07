@@ -6,7 +6,7 @@ import {About,Description,Image,Hide} from "../styles";
 
 const AboutSection =()=>{
     return(
-        <About className="about">
+        <About_1 className="about">
             <Description>
                 <div className="title">
                     <Hide>
@@ -22,11 +22,13 @@ const AboutSection =()=>{
             <Image>
                 <img src={home2} alt="a man standing"/>
             </Image>
-        </About>
+        </About_1>
     );
 };
 
-
+const About_1 = styled(About)`
+    background: linear-gradient(to bottom,#070B09  0%, #101918 100%);
+`
 
 
 export default AboutSection ;
